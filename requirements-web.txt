@@ -1,0 +1,24 @@
+# Web interface requirements
+# Install only what you need:
+# pip install -r requirements-web.txt
+
+# Choose ONE:
+
+# Option 1: Gradio (simplest)
+gradio==4.20.0
+
+# Option 2: Streamlit (customizable)  
+streamlit==1.31.0
+
+# Option 3: FastAPI (for custom frontend)
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.6.0
+
+# Optional: For cloud databases
+pinecone-client==3.0.0
+weaviate-client==4.4.0
+qdrant-client==1.7.0
+
+# Optional: For public URLs (Google Colab)
+pyngrok==7.0.0

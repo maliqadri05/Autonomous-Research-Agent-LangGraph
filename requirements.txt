@@ -1,0 +1,43 @@
+# Core LangChain and LangGraph
+langchain>=0.1.20
+langchain-community>=0.0.38
+langgraph>=0.0.53
+
+# Hugging Face Transformers
+transformers>=4.40.0
+torch>=2.0.0
+sentence-transformers>=2.7.0
+langchain-huggingface>=0.0.3
+accelerate>=0.30.0
+# bitsandbytes for 8-bit quantization (GPU only)
+# Windows users: May need WSL or conda for bitsandbytes
+# Comment out bitsandbytes line below if you get errors (optional, only for GPU)
+# bitsandbytes==0.43.1
+
+# Vector Store
+faiss-cpu>=1.12.0
+
+# Document Processing
+pypdf>=4.2.0
+python-docx>=1.1.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+lxml>=5.2.0
+
+# Web Search and Research
+duckduckgo-search>=5.3.0
+arxiv>=2.1.0
+wikipedia>=1.4.0
+
+# Utilities
+python-dotenv==1.0.1
+tiktoken==0.6.0
+numpy==1.26.4
+pandas==2.2.2
+
+# Web Interfaces (Optional - install as needed)
+# gradio==4.20.0        # For Gradio UI
+# streamlit==1.31.0     # For Streamlit UI
+# fastapi==0.109.0      # For REST API
+# uvicorn==0.27.0       # For FastAPI server
+# pyngrok==7.0.0        # For public URLs (Colab)
